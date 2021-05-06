@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,800&display=swap");
+.App {
+  text-align: center;
+}
+.title {
+  font-family: Courgette;
+  font-size: 8vh;
+  color: rgb(202, 233, 243);
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background: rgb(117, 84, 160);
+  background: linear-gradient(
+    90deg,
+    rgba(117, 84, 160, 1) 7%,
+    rgba(117, 84, 160, 1) 17%,
+    rgba(106, 95, 168, 1) 29%,
+    rgba(99, 103, 174, 1) 44%,
+    rgba(87, 116, 184, 1) 66%,
+    rgba(70, 135, 198, 1) 83%,
+    rgba(44, 163, 219, 1) 96%,
+    rgba(22, 188, 237, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  background: transparent;
+  font-size: 1.5rem;
+  transition: all 0.5s ease;
+  padding: 0rem 2rem;
+  border: 1px solid cornflowerblue;
+  border-radius: 20px;
+}
+.task-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  flex-wrap: wrap;
+  /* margin-right:  */
+  /* padding: -50px; */
+}
+.task:hover {
+  box-shadow: 2px 0px 0px 2px cornflowerblue;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.task h5 {
+  font-family: Lemonada;
+  color: rgb(202, 233, 243);
+  font-weight: bolder;
+}
+#done {
+  text-decoration: line-through black;
+}
+#dim {
+  opacity: 0.3;
+}
+input {
+  width: 80vh;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid cyan;
+  font-family: Lemonada;
+  font-size: 20px;
+  background-color: transparent;
+  color: lightblue;
+}
+input::placeholder {
+  color: lightblue;
+}
+input:focus {
+  outline: none;
+}
+input:hover {
+  box-shadow: 2px 0px 0px 2px cornflowerblue;
+}
+
+button {
+  background-color: transparent;
+  height: 5vh;
+  width: 12vh;
+  border: 2px solid cyan;
+  border-radius: 10px;
+  font-family: Lemonada;
+  margin: 10px;
+  color: rgb(202, 233, 243);
+}
+button:hover {
+  background-color: cyan;
+  color: black;
+}
+button:focus {
+  outline: none;
+}
+
+form > button {
+  background-color: transparent;
+  color: black;
+}
+form > input {
+  color: black;
+  border: 1px solid cyan;
+}
+form > input:hover {
+  background-color: cyan;
+  box-shadow: none;
+}
+form > button:hover {
+  background-color: cyan;
+}
+
+#mdl {
+  background: rgb(117, 84, 160);
+  background: linear-gradient(
+    90deg,
+    rgba(117, 84, 160, 1) 7%,
+    rgba(117, 84, 160, 1) 17%,
+    rgba(106, 95, 168, 1) 29%,
+    rgba(99, 103, 174, 1) 44%,
+    rgba(87, 116, 184, 1) 66%,
+    rgba(70, 135, 198, 1) 83%,
+    rgba(44, 163, 219, 1) 96%,
+    rgba(22, 188, 237, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
